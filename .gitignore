@@ -1,0 +1,32 @@
+# Arquivos do Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# Arquivos temporários
+*.tmp
+*.log
+*.cache
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Pastas de virtualenv (caso um dia use local)
+venv/
+env/
+
+# Dados grandes — sempre manter datasets na pasta data/
+*.csv
+*.xlsx
+*.json
+
+# Exceto o dataset da pasta data (permite manter ele lá!)
+!data/*.csv
+!data/*.xlsx
+!data/*.json
